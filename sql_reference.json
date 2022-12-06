@@ -19,6 +19,9 @@
         "drop": "ALTER TABLE table_name DROP COLUMN column_name;",
         "rename": "ALTER TABLE table_name RENAME COLUMN column_name TO new_name;",
         "primary_key": "ALTER TABLE table_name ADD PRIMARY KEY(column_name);",
-        "foreign_key": "ALTER TABLE table_name ADD FOREIGN KEY(column_name) REFERENCES table_name(column_name);"
+        "foreign_key": "ALTER TABLE table_name ADD FOREIGN KEY(column_name) REFERENCES table_name(column_name);",
+        "not_null": "ALTER TABLE table_name ALTER COLUMN column_name SET NOT NULL;",
+        "unique": "ALTER TABLE table_name ADD UNIQUE(column_name);",
+        "type": "ALTER TABLE table_name ALTER COLUMN column_name TYPE type_name;"
     }
 }
